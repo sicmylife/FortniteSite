@@ -175,6 +175,8 @@ nav ul li.btn:hover a {
     display: none;
 }
 
+
+
 @media (max-width: 1024px){
 
   .hero {
@@ -425,4 +427,38 @@ nav ul li.btn:hover a {
 }
 
 
+}
+
+@media (min-width: 1542px){
+
+  .hero {
+    background: radial-gradient(circle, rgb(114, 248, 42) 0%, rgb(92, 172, 11) 95%);
+    height: 100%;
+    width: 100%;
+    position: relative;
+  }
+  .hero-body {
+    width: 1800px;
+    margin: 0 auto;
+    height: 100vh;
+    padding: 10px;
+  }
+
+  .image {
+    width: 1400px;
+    /* max-width: 50%; */
+    height: 80%;
+    position:absolute ;
+    bottom: 0;
+    right: 0;
+  
+  
+  }
+  
+  .image img {
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+    
+  }
 }
