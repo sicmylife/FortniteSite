@@ -31,8 +31,8 @@ body {
 }
 
 .hero-body {
-  width: 1440px;
-  max-width: 1400px;
+  width: 1420px;
+  /* max-width: 1400px; */
   margin: 0 auto;
   height: 100vh;
 }
@@ -89,12 +89,14 @@ nav ul li.btn:hover a {
 
 .content {
   padding-top: 150px;
+  /* display: flex;
+  align-items:flex-start;
+  justify-content: space-between; */
 }
 
 .content .main-text {
   padding-bottom: 50px;
-  position: relative;
-
+  position: static;
   color: white;
 }
 
@@ -136,7 +138,7 @@ nav ul li.btn:hover a {
 }
 
 .content .social {
-  margin-top: 100px;
+  margin-top: 10px;
   color: white;
 }
 
@@ -152,16 +154,21 @@ nav ul li.btn:hover a {
 }
 
 .image {
-  width: 80%;
-  height: 85%;
-  position: absolute;
+  width: 900px;
+  max-width: 70%;
+  height: 80%;
+  position:absolute ;
   bottom: 0;
-  right: -500px;
-  /* text-align: right; */
+  right: 0;
+
+
 }
 
 .image img {
+  width: 100%;
   height: 100%;
+  /* object-fit: cover; */
+  
 }
 
 .close,.open{
@@ -188,6 +195,7 @@ nav ul li.btn:hover a {
     max-width: 375px;
     margin: 0 auto;
     height: 100vh;
+    padding: 10px;
   }
 
   header {
@@ -232,7 +240,7 @@ nav ul li.btn:hover a {
 
 
   nav ul {
-    padding: 100px;
+    padding: 10px;
   }
 
   nav ul li {
@@ -262,7 +270,7 @@ nav ul li.btn:hover a {
   }
 
   .content {
-    padding-top: 100px;
+    padding-top: 20px;
     text-align: center;
     position: relative;
     z-index: 1;
@@ -271,7 +279,6 @@ nav ul li.btn:hover a {
   .content .main-text {
     padding-bottom:20px;
     position: relative;
-  
     color: white;
   }
   
@@ -290,7 +297,7 @@ nav ul li.btn:hover a {
   
   .content .main-text h1 {
     font-family: "Permanent Marker", cursive;
-    font-size: 82px;
+    font-size: 48px;
     padding-bottom: 20px;
   }
   
@@ -332,20 +339,28 @@ nav ul li.btn:hover a {
   
 
   .image {
-    width: 100%;
-    height:50%;
-    position: absolute;
+   /* width: 370px; */
+    height:100%;
+    position: relative;
     bottom: 0;
-    right: 100px;
-    opacity: .9;
+   
+    right: 0px;
+    opacity: .7;
  
   }
   
   .image img {
-    height: 100%
- 
-
+    width: 370px;
+    /* width:100%; */
 
 
 }
+
+.content .social {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: white;
+}
+
+
 }
