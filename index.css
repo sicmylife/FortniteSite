@@ -31,7 +31,7 @@ body {
 }
 
 .hero-body {
-  width: 1420px;
+  width: 1440px;
   /* max-width: 1400px; */
   margin: 0 auto;
   height: 100vh;
@@ -155,7 +155,7 @@ nav ul li.btn:hover a {
 
 .image {
   width: 900px;
-  max-width: 70%;
+  /* max-width: 50%; */
   height: 80%;
   position:absolute ;
   bottom: 0;
@@ -175,7 +175,70 @@ nav ul li.btn:hover a {
     display: none;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1024px){
+
+  .hero {
+    background: radial-gradient(circle, rgba(224,154,21,1) 0%, rgba(240,114,35,1) 95%);
+    height: 100%;
+    width: 100%;
+    position: relative;
+  }
+  .hero-body {
+    width: 900px;
+ 
+    margin: 0 auto;
+    height: 100vh;
+    padding: 10px;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+  }
+
+  nav ul li a {
+    color: white;
+    margin-left: 30px;
+    font-weight: 400;
+    border-bottom: 1px solid transparent;
+    transition: 0.4s;
+  }
+
+  .content .main-text p {
+    font-weight: 300;
+    font-size: 14px;
+    width: 350px;
+    padding-bottom: 40px;
+    letter-spacing: 1px;
+  }
+  
+  .content .main-text h1 {
+    font-family: "Permanent Marker", cursive;
+    font-size: 62px;
+    padding-bottom: 20px;
+  }
+
+  
+  .image {
+     height:70%;
+     width: 600px;
+    
+  
+   }
+   
+   .image img {
+     
+     width:100%;
+ 
+ }
+  
+  
+
+}
+
+@media (max-width: 567px) {
   .hero {
     background-image: linear-gradient(
       to right,
@@ -192,7 +255,7 @@ nav ul li.btn:hover a {
   }
   .hero-body {
     width: 375px;
-    max-width: 375px;
+ 
     margin: 0 auto;
     height: 100vh;
     padding: 10px;
@@ -339,20 +402,19 @@ nav ul li.btn:hover a {
   
 
   .image {
-   /* width: 370px; */
+   width: 100%;
     height:100%;
     position: relative;
     bottom: 0;
    
     right: 0px;
-    opacity: .7;
+    /* opacity: .7; */
  
   }
   
   .image img {
-    width: 370px;
+    /* width: 370px; */
     /* width:100%; */
-
 
 }
 
