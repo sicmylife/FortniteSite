@@ -334,14 +334,14 @@ nav ul li.btn:hover a {
 
   .content {
     padding-top: 20px;
-    text-align: center;
+    /* text-align: center; */
     position: relative;
     z-index: 1;
   }
   
   .content .main-text {
     padding-bottom:20px;
-    position: relative;
+    position: static;
     color: white;
   }
   
@@ -403,9 +403,9 @@ nav ul li.btn:hover a {
 
   .image {
    width: 100%;
-    height:100%;
+    height:80%;
     /* position: relative; */
-    bottom: 0;
+    bottom: -120px;
     left: 250px;
     /* opacity: .7; */
     z-index: -1;
