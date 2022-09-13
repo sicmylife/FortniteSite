@@ -31,7 +31,7 @@ body {
 }
 
 .hero-body {
-  width: 1440px;
+  width: 1300px;
   /* max-width: 1400px; */
   margin: 0 auto;
   height: 100vh;
@@ -48,6 +48,13 @@ header .logo a h2 {
   font-size: 2rem;
   color: white;
   font-weight: 700;
+
+}
+
+header .logo a h2:hover {
+  color: white;
+  transform: scale(1.4);
+  transition: 0.2s;
 }
 
 nav ul li {
@@ -186,7 +193,7 @@ nav ul li.btn:hover a {
     position: relative;
   }
   .hero-body {
-    width: 900px;
+    width: 850px;
  
     margin: 0 auto;
     height: 100vh;
@@ -429,7 +436,7 @@ nav ul li.btn:hover a {
 
 }
 
-@media (min-width: 1542px){
+@media (min-width: 1742px){
 
   .hero {
     background: radial-gradient(circle, rgb(114, 248, 42) 0%, rgb(92, 172, 11) 95%);
